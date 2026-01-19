@@ -1,0 +1,60 @@
+/* Umumiy dizayn */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+/* Header */
+header {
+  background: #222;
+  padding: 15px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Video list container */
+.video-list {
+  padding: 10px;
+  max-width: 600px;
+  margin: auto;
+}
+
+/* Har bir video kartasi */
+.video-card {
+  background: #1a1a1a;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Video sarlavhasi */
+.video-card h3 {
+  margin: 0 0 5px 0;
+  font-size: 18px;
+}
+
+/* Video player */
+video {
+  width: 100%;
+  border-radius: 5px;
+  background: black;
+}
+
+/* Loading bar */
+.loading-bar {
+  height: 5px;
+  background: #333;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+/* Loading fill */
+.loading-fill {
+  height: 100%;
+  width: 0;
+  background: #f00;
+}
